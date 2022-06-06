@@ -4,15 +4,18 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 .container {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
-ul, li, h1, h6 {
+ul, li, h1, p {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -23,7 +26,7 @@ img {
 }
 
 .page {
-    &-wrap {
+    &__wrap {
         height: 100vh;
         position: relative;
         z-index: 8;
@@ -53,5 +56,6 @@ img {
     }
 }
 
-@import 'blocks/blocks';
+@import 'blocks/header';
+@import 'blocks/description';
 @import 'media/media';

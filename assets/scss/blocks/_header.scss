@@ -1,5 +1,6 @@
 .header {
-    padding: 25px 120px;
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,7 +27,5 @@
 
     &__panel-lang {
         font-family: 'Poppins', sans-serif;
-        color: white;
-        text-decoration: none;
     }
 }

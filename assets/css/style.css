@@ -7,18 +7,21 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 .container {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  padding-left: 120px;
+  padding-right: 120px;
 }
 
 ul,
 li,
 h1,
-h6 {
+p {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -28,13 +31,13 @@ img {
   max-width: 100%;
 }
 
-.page-wrap {
+.page__wrap {
   height: 100vh;
   position: relative;
   z-index: 8;
 }
 
-.page-wrap::after {
+.page__wrap::after {
   content: '';
   width: 100%;
   height: 100%;
@@ -60,7 +63,8 @@ img {
 }
 
 .header {
-  padding: 25px 120px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,8 +102,66 @@ img {
 
 .header__panel-lang {
   font-family: 'Poppins', sans-serif;
-  color: white;
-  text-decoration: none;
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: relative;
+  z-index: 9;
+}
+
+.description__text {
+  -ms-flex-preferred-size: 600px;
+  flex-basis: 600px;
+  cursor: default;
+}
+
+.description__text h1 {
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.description__text p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.description__text-badges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.description__text-badges a {
+  width: 180px;
+}
+
+.description__text-badges a:first-child {
+  margin-right: 20px;
+}
+
+.description__text-badges a img {
+  margin-top: 4px;
+}
+
+.description__img {
+  width: 540px;
+  height: 521px;
+  background-color: blue;
 }
 
 @media (min-width: 1024px) {
