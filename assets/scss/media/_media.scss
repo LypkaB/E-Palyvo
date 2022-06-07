@@ -3,3 +3,47 @@
         cursor: pointer;
     }
 }
+
+@media (max-width: 475px) {
+    .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header {
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        &__logo {
+            position: relative;
+            left: 40%;
+            transform: translateX(-60%);
+        }
+    }
+
+    .description {
+        flex-direction: column;
+        text-align: center;
+
+        &__text {
+            flex-basis: initial;
+
+            h1, p {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+
+            h1 {
+                font-size: 44px;
+            }
+
+            &-badges {
+                justify-content: center;
+            }
+        }
+
+        &__img {
+            display: none;
+        }
+    }
+}
