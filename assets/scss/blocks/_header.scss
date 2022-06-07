@@ -1,9 +1,6 @@
 .header {
     padding-top: 25px;
     padding-bottom: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     position: relative;
     z-index: 9;
 
@@ -23,9 +20,5 @@
         img {
             margin-right: 10px;
         }
-    }
-
-    &__panel-lang {
-        font-family: 'Poppins', sans-serif;
     }
 }
