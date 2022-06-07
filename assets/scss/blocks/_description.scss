@@ -11,9 +11,8 @@
     align-items: center;
     justify-content: space-between;
 
-
     &__text {
-        flex-basis: 600px;
+        flex-basis: 650px;
         cursor: default;
 
         h1 {
@@ -28,6 +27,8 @@
         }
 
         p {
+            width: 520px;
+            font-size: 18px;
             line-height: 1.5;
             margin-bottom: 20px;
         }
