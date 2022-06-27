@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 32px;
+
+    &__logo {
+        font-family: 'AkzidenzGroteskPro', sans-serif;
+        font-size: 38px;
+        font-weight: 500;
+        color: darken(#ffbf60, 10%);
+        text-decoration: none;
+        margin-bottom: 65px;
+    }
+
+    &__text {
+        &-main {
+            max-width: 900px;
+            font-size: 56px;
+            font-weight: 600;
+            letter-spacing: 0.28px;
+            margin-bottom: 30px;
+        }
+
+        &-sub {
+            max-width: 600px;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+    }
+}
