@@ -169,6 +169,12 @@ img {
   font-size: 18px;
 }
 
+@-moz-document url-prefix()  {
+  .preview__location-list li {
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+}
+
 .benefits {
   padding-left: 48px;
   padding-right: 48px;
