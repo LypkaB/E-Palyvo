@@ -1,0 +1,30 @@
+.info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 55px;
+    padding-right: 115px;
+
+    > div {
+        flex-basis: 50%;
+    }
+
+    &__content {
+        span {
+            display: block;
+            font-size: 56px;
+            font-weight: 600;
+            line-height: 66px;
+            letter-spacing: 0.28px;
+            margin-bottom: 60px;
+        }
+
+        a + a {
+            margin-left: 32px;
+        }
+    }
+
+    &__img {
+        max-width: 485px;
+    }
+}

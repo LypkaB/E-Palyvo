@@ -1,7 +1,8 @@
 @media (min-width: 1024px) {
     .header,
     .preview__location-list li,
-    .benefits__item {
+    .benefits__item,
+    .info__content span {
         cursor: default;
     }
 }
