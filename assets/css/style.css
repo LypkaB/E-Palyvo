@@ -349,6 +349,31 @@ img {
   text-align: center;
 }
 
+.support-container {
+  padding-left: 120px;
+  padding-right: 120px;
+  text-align: center;
+}
+
+.support-container h6 {
+  font-size: 38px;
+  color: #ffbf60;
+  cursor: default;
+}
+
+.support-container h1 {
+  font-size: 57px;
+  margin-bottom: 10%;
+  cursor: default;
+}
+
+.support-container a {
+  padding: 15px 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 @media (min-width: 1024px) {
   .header,
   .preview__location-list li,

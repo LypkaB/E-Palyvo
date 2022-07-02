@@ -1,0 +1,24 @@
+.support-container {
+    padding-left: 120px;
+    padding-right: 120px;
+    text-align: center;
+
+    h6 {
+        font-size: 38px;
+        color: #ffbf60;
+        cursor: default;
+    }
+
+    h1 {
+        font-size: 57px;
+        margin-bottom: 10%;
+        cursor: default;
+    }
+
+    a {
+        padding: 15px 10px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+}
