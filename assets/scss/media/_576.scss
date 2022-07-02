@@ -1,0 +1,70 @@
+@media (max-width: 576px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header {
+        margin-top: 15px;
+        margin-bottom: 20px;
+
+        &__logo {
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+
+        &__text {
+            &-main {
+                font-size: 26px;
+            }
+
+            &-sub {
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    .main-button {
+        font-size: 16px;
+    }
+
+    .preview__location-list {
+        width: initial;
+        padding-top: 100px;
+
+        li + li {
+            margin-top: 40px;
+        }
+
+        .preview__item {
+            position: initial;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .benefits {
+        margin-bottom: 50px;
+        padding-left: 0;
+        padding-right: 0;
+        flex-direction: column;
+
+        > div + div {
+            margin-left: 0;
+            margin-top: 40px;
+        }
+    }
+
+    .info {
+        padding-bottom: 30px;
+
+        > div {
+            flex-basis: initial;
+        }
+
+        &__img {
+            display: none;
+        }
+    }
+}
