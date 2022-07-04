@@ -66,7 +66,9 @@
                 <span class="benefits__subtitle">
                     У додатку публікуються дані про доступний бензин, черги, час роботи заправок та актуальнi ціни
                 </span>
-                <div class="benefits__img"></div>
+                <div class="benefits__img">
+                    <img src="./assets/images/benefits__img-1.jpg" alt="Benefits map">
+                </div>
             </div>
             <div class="benefits__item">
                 <span class="benefits__title">Особисті налаштування</span>
@@ -106,7 +108,9 @@
 
     <script src="./assets/js/wow.min.js"></script>
     <script>
-        new WOW().init();
+        window.addEventListener('DOMContentLoaded', () => {
+            new WOW().init();
+        })
     </script>
 </body>
 </html>
